@@ -130,7 +130,7 @@ class _HomeState extends State<Home> {
               _buildAmount(),
               _buildName(),
               _buildDescription(),
-              SizedBox(height: 100),
+              SizedBox(height: 10),
               RaisedButton(
                 child: Text("Save", style: TextStyle(color: Colors.green, fontSize: 16)),
                 onPressed: (){
