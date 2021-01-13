@@ -1,7 +1,11 @@
+import 'package:floor/floor.dart';
+@entity
 class Dept{
-  String deptType = "";
-  String amount = "";
-  String name = "";
-  String description = "";
- Dept ({this.deptType, this.amount, this.name, this.description});
+  @primaryKey
+  final int id;
+  final String deptType ;
+  final String amount;
+  final String name;
+  String description;
+ Dept(this.deptType, this.amount, this.name, this.description, this.id);
 }

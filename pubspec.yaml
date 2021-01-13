@@ -23,10 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  moor: # use the latest version
-  sqlite3_flutter_libs: # Also use the latest version.
-  path_provider:
-  path:
+  floor: ^0.18.0
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -36,8 +34,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  moor_generator: # use the latest version
-  build_runner:
+  floor_generator: ^0.18.0
+  build_runner: ^1.10.3
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
