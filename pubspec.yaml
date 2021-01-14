@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   floor: ^0.18.0
+  http: ^0.12.0
 
 
 

@@ -7,9 +7,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  List<Dept> dept = [
-    Dept(deptType: 'deptType', amount: 'amount', name: 'name', description: 'description')
-  ];
+
 
   String deptType = "";
   String amount = "";
